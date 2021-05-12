@@ -1,9 +1,3 @@
-var jq = document.createElement("script");
-jq.type = "text/javascript";
-document.getElementsByTagName("head")[0].appendChild(jq);
-jq.onload = function() { console.log(jQuery); };
-jq.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js";
-
 var popcss = document.createElement("link");
 popcss.setAttribute("rel", "stylesheet");
 popcss.setAttribute("type", "text/css");
