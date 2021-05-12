@@ -1,9 +1,3 @@
-var popcss = document.createElement("link");
-popcss.setAttribute("rel", "stylesheet");
-popcss.setAttribute("type", "text/css");
-popcss.setAttribute("href", "https://cdn.jsdelivr.net/gh/vyantagc/vyantagc/popme-style.min.css");
-document.head.appendChild(popcss);
-
 $(document).ready(function()
 {
     console.log('jquery ready!');
